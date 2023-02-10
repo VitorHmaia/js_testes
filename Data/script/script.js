@@ -6,13 +6,13 @@ var min = data.getMinutes()
 
 
 /*let data = new Date();
-function formatarData(data){ //formatar data em xx/xx/xxx
-    let newDate = new Date(data1);
+function formatarData(data){'' //formatar data em dd/mm/aaaa
+    let newDate = new Date(data);
     return `${newDate.getDate()/newDate.getMonth()+1/newDate.getFullYear()}`;
 }
 console.log(formatarData(data));
 */
-
+//var dataManual = (new Date()).toLocaleTimeString('pt-BR', { timeZone: 'America/Sao_Paulo'})
 
 //Desafio 1 - Bom dia, Tarde e Noite
     if(hora<12){
